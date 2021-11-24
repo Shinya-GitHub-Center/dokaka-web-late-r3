@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/tag/cover",
+    "result": {"data":{"contentfulTag":{"title":"Cover","id":"b8df9365-fffe-5e47-aecf-24da80e3a2e8","slug":"cover","post":null}},"pageContext":{"slug":"cover","basePath":"","paginationPath":"/tag/cover","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":6,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
+    "staticQueryHashes": ["1946181227","2744905544","3732430097"]}
