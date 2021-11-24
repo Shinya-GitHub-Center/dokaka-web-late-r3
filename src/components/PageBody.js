@@ -11,7 +11,7 @@ const Body = styled.div`
     font-weight: 600;
     line-height: 1.25;
     margin: 0 0 1rem 0;
-    text-transform: capitalize;
+    text-transform: none;
   }
 
   h1 {
@@ -53,9 +53,11 @@ const Body = styled.div`
   }
 
   ul {
+    padding-left: 20px;
     li {
+      padding: 0.1em 0;
       list-style: disc;
-      list-style-position: inside;
+      list-style-position: outside;
       line-height: 1.25;
       &:last-child {
         margin: 0;
@@ -64,9 +66,11 @@ const Body = styled.div`
   }
 
   ol {
+    padding-left: 20px;
     li {
+      padding: 0.1em 0;
       list-style: decimal;
-      list-style-position: inside;
+      list-style-position: outside;
       line-height: 1.25;
       &:last-child {
         margin: 0;

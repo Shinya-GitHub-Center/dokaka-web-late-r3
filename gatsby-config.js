@@ -17,14 +17,14 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'Dokaka.com - DOKAKA\'s Website',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.app',
-    image: '/images/share.jpg',
+      'The official website of one of the most renowned Mouth Music artists in the world',
+    siteUrl: 'https://dokaka.com',
+    image: '/images/modern_collabo.jpg',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Dokaka.com',
         slug: '/',
       },
       {
@@ -32,8 +32,12 @@ module.exports = {
         slug: '/about/',
       },
       {
-        name: 'Contact',
-        slug: '/contact/',
+        name: 'Email',
+        slug: '/email/',
+      },
+      {
+        name: 'Fruit',
+        slug: '/fruit/',
       },
     ],
     postsPerFirstPage: 7,
@@ -84,8 +88,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'DOKAKA\'s Website',
+        short_name: 'DKK',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',

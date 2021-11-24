@@ -88,6 +88,7 @@ export const globalStyles = css`
     margin: 0;
     padding: 0;
     border: 0;
+    max-width: 100%;
     font-size: 100%;
     /* stylelint-disable-next-line */
     font: inherit;

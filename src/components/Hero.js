@@ -31,7 +31,7 @@ const BgImg = styled(GatsbyImage)`
 const Title = styled.h1`
   z-index: 2;
   font-size: 3em;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 600;
   position: absolute;
   width: 100%;

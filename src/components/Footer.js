@@ -24,10 +24,7 @@ const List = styled.ul`
 const Item = styled.li`
   display: inline-block;
   padding: 0.25em 0;
-  width: 100%;
-  @media screen and (min-width: ${props => props.theme.responsive.small}) {
-    width: auto;
-  }
+  width: auto;
   a {
     font-weight: 600;
     transition: all 0.2s;
@@ -46,32 +43,67 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.contentful.com/"
+          href="https://github.com/Dukka-De-La-Dokka"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
           <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
+            src="/images/github_logo.svg"
+            style={{ width: '40px' }}
+            alt="GitHub"
           />
         </a>
       </Item>
       <Item>
         <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
+          href="https://www.facebook.com/DOKAKA-30961292827/"
+          rel="nofollow noopener noreferrer"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          gatsby-starter-gcn
-        </a>{' '}
-        by{' '}
+          <img
+            src="/images/facebook_logo.svg"
+            style={{ width: '40px' }}
+            alt="Facebook"
+          />
+        </a>
+      </Item>
+      <Item>
         <a
-          href="https://github.com/ryanwiemer"
+          href="https://www.youtube.com/channel/UCHXqKez9bVrF6fIKHVRhkCw"
+          rel="nofollow noopener noreferrer"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          @ryanwiemer
+          <img
+            src="/images/youtube_logo.svg"
+            style={{ width: '40px' }}
+            alt="YouTube"
+          />
+        </a>
+      </Item>
+      <Item>
+        <a
+          href="https://music.apple.com/us/album/the-dokaka-discography/392217854"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="/images/tddiscog_logo.png"
+            style={{ width: '40px', borderRadius: '5px', border: '1px solid #faf0e6' }}
+            alt="The Dokaka Discography"
+          />
+        </a>
+      </Item>
+      <Item>
+        <a
+          href="https://music.apple.com/jp/album/human-interface/295543709"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            src="/images/hiface_logo.png"
+            style={{ width: '40px', borderRadius: '5px' }}
+            alt="Human Interface"
+          />
         </a>
       </Item>
     </List>
