@@ -19,6 +19,7 @@ const Box = styled.div`
     padding: 1em;
     border-radius: 2px;
     text-decoration: none;
+    font-family: Courier;
     transition: 0.2s;
     &:hover {
       background: ${props => props.theme.colors.highlight};
@@ -42,12 +43,12 @@ const PostLinks = props => {
       <Box>
         {props.previous && (
           <PreviousLink to={`${props.basePath}/${props.previous.slug}/`}>
-            &#8592; Prev
+            &#8592;Newer
           </PreviousLink>
         )}
         {props.next && (
           <NextLink to={`${props.basePath}/${props.next.slug}/`}>
-            Next &#8594;
+            Older&#8594;
           </NextLink>
         )}
       </Box>

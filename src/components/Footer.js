@@ -56,7 +56,7 @@ const Footer = () => (
       </Item>
       <Item>
         <a
-          href="https://www.facebook.com/DOKAKA-30961292827/"
+          href="https://www.facebook.com/post.pandemic.dkk/"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
@@ -69,7 +69,7 @@ const Footer = () => (
       </Item>
       <Item>
         <a
-          href="https://www.youtube.com/channel/UCHXqKez9bVrF6fIKHVRhkCw"
+          href="https://www.youtube.com/c/DKKFUNVIDEO"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
