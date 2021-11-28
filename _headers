@@ -40,6 +40,14 @@
   Link: </component---cache-caches-gatsby-plugin-offline-app-shell-js-1e6e1ea8d6ffb7cf48c4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
+/death-metal-isolated-tracks/
+  Link: </webpack-runtime-4982e62b22d659fe876a.js>; rel=preload; as=script
+  Link: </framework-f946cba9158c39028229.js>; rel=preload; as=script
+  Link: </app-e6fe9c11c2ba6e03ed8b.js>; rel=preload; as=script
+  Link: </894d08f847d5ccd5721a76881f119ff4878c1a22-860dc613bbdbf67d312f.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-4a1a0fff94752ed4f975.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/death-metal-isolated-tracks/page-data.json>; rel=preload; as=fetch; crossorigin
 /rough-track-collection-03/
   Link: </webpack-runtime-4982e62b22d659fe876a.js>; rel=preload; as=script
   Link: </framework-f946cba9158c39028229.js>; rel=preload; as=script
@@ -142,6 +150,15 @@
   Link: </component---src-templates-tag-js-be2c30506efa13f6f6e7.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tag/unreleased/page-data.json>; rel=preload; as=fetch; crossorigin
+/tag/unreleased/2
+  Link: </webpack-runtime-4982e62b22d659fe876a.js>; rel=preload; as=script
+  Link: </framework-f946cba9158c39028229.js>; rel=preload; as=script
+  Link: </app-e6fe9c11c2ba6e03ed8b.js>; rel=preload; as=script
+  Link: </894d08f847d5ccd5721a76881f119ff4878c1a22-860dc613bbdbf67d312f.js>; rel=preload; as=script
+  Link: </212ae2af855d65570e31b2d1c3fdec86b52467f3-64b315e0e35bb032e357.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-js-be2c30506efa13f6f6e7.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/tag/unreleased/2/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/released
   Link: </webpack-runtime-4982e62b22d659fe876a.js>; rel=preload; as=script
   Link: </framework-f946cba9158c39028229.js>; rel=preload; as=script
