@@ -98,7 +98,8 @@ export const globalStyles = css`
   /* Added to Fix Footer to bottom of viewport */
   html,
   body {
-    background: white;
+    // main body color
+    background: #15202b;
     height: 100%;
   }
   .siteRoot {

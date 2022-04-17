@@ -38,7 +38,7 @@ const Numbers = styled.div`
   float: left;
   color: ${props => props.theme.colors.text};
   padding: 1rem;
-  background: white;
+  background: #15202b;
   position: relative;
   transition: 0.3s all;
   svg {
@@ -50,7 +50,7 @@ const Numbers = styled.div`
     background: ${props => props.theme.colors.tertiary};
   }
   @media (hover: none) {
-    background: white !important;
+    background: #15202b !important;
   }
 `
 

@@ -88,7 +88,7 @@ const Footer = () => (
         >
           <img
             src="/images/tddiscog_logo.png"
-            style={{ width: '40px', borderRadius: '5px', border: '1px solid #faf0e6' }}
+            style={{ width: '40px', borderRadius: '5px' }}
             alt="The Dokaka Discography"
           />
         </a>

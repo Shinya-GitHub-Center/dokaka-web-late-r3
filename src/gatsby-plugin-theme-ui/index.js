@@ -1,11 +1,17 @@
 export default {
   colors: {
-    background: '#ffffff',
-    text: '#121212',
-    primary: '#121212',
-    secondary: '#e9e9e9',
-    tertiary: '#f3f3f3',
-    highlight: '#5b8bf7',
+    // nothing change (main body color will be changed @ styles/globalStyles.js)
+    background: '#15202b',
+    // text color except header text and newer older text and post title
+    text: '#ffffff',
+    // older and newer color & header background color
+    primary: '#22303c',
+    // tag hover & boder line color
+    secondary: '#22303c',
+    // posts link hover & page number selector hover & tag color
+    tertiary: '#192734',
+    // older and newer hover color
+    highlight: '#fd6473',
   },
   fonts: {
     body:
