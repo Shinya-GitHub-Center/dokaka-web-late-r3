@@ -99,7 +99,7 @@ export const globalStyles = css`
   html,
   body {
     // main body color
-    background: #15202b;
+    background: #25282b;
     height: 100%;
   }
   .siteRoot {

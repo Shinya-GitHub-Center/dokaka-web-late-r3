@@ -5,7 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 const Post = styled.li`
   position: relative;
-  border: 1px solid ${(props) => props.theme.colors.secondary};
+  border: 1px solid ${(props) => props.theme.colors.primary};
   border-radius: 2px;
   margin: 0 0 1em;
   width: 100%;
