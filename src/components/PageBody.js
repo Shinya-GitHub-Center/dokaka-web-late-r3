@@ -25,8 +25,8 @@ const Body = styled.div`
   }
 
   p {
-    line-height: 1.6;
-    margin: 0 0 2em 0;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
   }
 
   a {
@@ -90,13 +90,23 @@ const Body = styled.div`
     padding: 0 0 0 0.5em;
   }
 
+  code {
+    border-radius: 2px !important;
+    color: ${props => props.theme.colors.text} !important;
+    background: ${props => props.theme.colors.tertiary} !important;
+  }
+
   pre {
     margin: 0 0 2em 0;
     border-radius: 2px;
-    background: ${props => props.theme.colors.primary} !important;
+    background: ${props => props.theme.colors.tertiary} !important;
     span {
       background: inherit !important;
     }
+  }
+
+  a.anchor {
+    fill: ${props => props.theme.colors.highlight};
   }
 `
 
