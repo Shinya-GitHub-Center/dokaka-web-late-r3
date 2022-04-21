@@ -5,7 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 const Post = styled.li`
   position: relative;
-  border: 1px solid ${(props) => props.theme.colors.primary};
+  border: 1px solid #565b62;
   border-radius: 2px;
   margin: 0 0 1em;
   width: 100%;
@@ -52,12 +52,12 @@ const Title = styled.h2`
 
 const Date = styled.h3`
   margin: 0 1rem 0.5rem;
-  color: gray;
+  color: #858c97;
 `
 
 const ReadingTime = styled.h4`
   margin: 0 1rem 1.5rem;
-  color: gray;
+  color: #858c97;
 `
 
 const Excerpt = styled.p`

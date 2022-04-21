@@ -32,7 +32,7 @@ const Button = styled(Link)`
 `
 
 const Numbers = styled.div`
-  border: 1px solid ${props => props.theme.colors.primary};
+  border: 1px solid #565b62;
   border-radius: 2px;
   display: inline-block;
   float: left;
