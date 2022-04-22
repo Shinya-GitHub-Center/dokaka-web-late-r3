@@ -5,6 +5,11 @@ require('prismjs/themes/prism.css')
 const Body = styled.div`
   margin: 0 auto;
   max-width: ${props => props.theme.sizes.maxWidthCentered};
+
+  body {
+    background: ${props => props.theme.colors.background};
+  }
+
   h1,
   h2,
   h3 {
@@ -33,7 +38,7 @@ const Body = styled.div`
     transition: 0.2s;
     color: ${props => props.theme.colors.text};
     &:hover {
-      color: ${props => props.theme.colors.highlight};
+      color: ${props => props.theme.colors.secondary};
     }
   }
 
@@ -80,13 +85,13 @@ const Body = styled.div`
 
   hr {
     border-style: solid;
-    border-color: ${props => props.theme.colors.primary};
+    border-color: ${props => props.theme.colors.bordercol};
     margin: 0 0 2em 0;
   }
 
   blockquote {
     font-style: italic;
-    border-left: 4px solid ${props => props.theme.colors.primary};
+    border-left: 4px solid ${props => props.theme.colors.bordercol};
     padding: 0 0 0 0.5em;
   }
 

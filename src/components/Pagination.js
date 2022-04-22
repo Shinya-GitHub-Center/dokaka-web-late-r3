@@ -32,13 +32,13 @@ const Button = styled(Link)`
 `
 
 const Numbers = styled.div`
-  border: 1px solid #565b62;
+  border: 1px solid ${props => props.theme.colors.bordercol};
   border-radius: 2px;
   display: inline-block;
   float: left;
   color: ${props => props.theme.colors.text};
   padding: 1rem;
-  background: #25282b;
+  background: ${props => props.theme.colors.background};
   position: relative;
   transition: 0.3s all;
   svg {
@@ -48,9 +48,15 @@ const Numbers = styled.div`
   }
   &:hover {
     background: ${props => props.theme.colors.highlight};
+    @media (prefers-color-scheme: light) {
+      color: #ffffff;
+      svg {
+        fill: #ffffff;
+      }
+    }
   }
   @media (hover: none) {
-    background: #25282b !important;
+    background: ${props => props.theme.colors.background} !important;
   }
 `
 

@@ -20,9 +20,12 @@ const Tag = styled.li`
     text-transform: capitalize;
     text-decoration: none;
     color: ${props => props.theme.colors.text};
-    border: 1px solid #51555b;
+    border: 1px solid ${props => props.theme.colors.bordercol};
     &:hover {
       background: ${props => props.theme.colors.secondary};
+      @media (prefers-color-scheme: light) {
+        color: #ffffff;
+      }
     }
   }
 `
