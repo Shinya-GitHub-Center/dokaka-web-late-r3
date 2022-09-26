@@ -40,6 +40,14 @@
   Link: </component---cache-caches-gatsby-plugin-offline-app-shell-js-1e6e1ea8d6ffb7cf48c4.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
+/bangou-song-2022/
+  Link: </webpack-runtime-07a7463a09014fc18c45.js>; rel=preload; as=script
+  Link: </framework-f946cba9158c39028229.js>; rel=preload; as=script
+  Link: </app-98aaa5679b86127e9fce.js>; rel=preload; as=script
+  Link: </894d08f847d5ccd5721a76881f119ff4878c1a22-ee804005ca2be8e97804.js>; rel=preload; as=script
+  Link: </component---src-templates-post-js-1ce8b40c04612fb8498a.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/bangou-song-2022/page-data.json>; rel=preload; as=fetch; crossorigin
 /memo-track-collection-02/
   Link: </webpack-runtime-07a7463a09014fc18c45.js>; rel=preload; as=script
   Link: </framework-f946cba9158c39028229.js>; rel=preload; as=script
