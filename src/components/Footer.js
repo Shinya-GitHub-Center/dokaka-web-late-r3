@@ -48,7 +48,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="/images/github_logo.svg"
+            src="/images/github_blackwhite_logo.png"
             style={{ width: '40px' }}
             alt="GitHub"
           />
