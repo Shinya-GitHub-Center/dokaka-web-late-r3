@@ -43,7 +43,7 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://github.com/Dukka-De-La-Dokka"
+          href="https://github.com/Shinya-GitHub-Center"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
