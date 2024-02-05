@@ -27,27 +27,39 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-4ccef856c03a4c82ffdc.js"
+    "url": "webpack-runtime-48f0772ac29769a922fd.js"
   },
   {
     "url": "framework-f946cba9158c39028229.js"
   },
   {
-    "url": "app-98aaa5679b86127e9fce.js"
+    "url": "app-361012d23a6547bbc332.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "932d88bd8f01de5c74a23abbcf6f04a1"
+    "revision": "c70deedcc5002a6aa375bc1738a56e65"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-1e6e1ea8d6ffb7cf48c4.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "c477dc4840fada56b83015b0905ebc60"
+  },
+  {
+    "url": "page-data/sq/d/2744905544.json",
+    "revision": "6fded333b4ed834f59ae5dc670f8d388"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "5b972f8e7ddecc66935e82f0f43425e0"
   },
   {
     "url": "polyfill-88f70392a50655a504f5.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "94e5860a86bd7097c63ceac934d13521"
+    "revision": "7d212621cbd25eaf965b78d876a9e0b7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -134,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/dokaka-web-late-r3`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-98aaa5679b86127e9fce.js`))) {
+  if (!resources || !(await caches.match(`/dokaka-web-late-r3/app-361012d23a6547bbc332.js`))) {
     return await fetch(event.request)
   }
 
@@ -152,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/dokaka-web-late-r3/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
