@@ -1,0 +1,11 @@
+REPODIR="dokaka-web-late-r3"
+RMT_REPO_ADDR="https://github.com/Shinya-GitHub-Center/dokaka-web-late-r3.git"
+GIT_UNAME="<your_name>"
+GIT_UMAIL="<your_email>"
+
+# Please do not change anything from here
+ADDLDIR=".LocalDevFiles"
+MDLDIR="node_modules"
+VSCDIR="$HOME/.vscode-server"
+VSCJSON="$HOME/.vscode-server/data/Machine/settings.json"
+VSCSET='{\n\t"dev.containers.gitCredentialHelperConfigLocation": "none",\n\t"github.gitAuthentication": false\n}'
