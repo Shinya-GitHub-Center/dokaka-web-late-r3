@@ -20,7 +20,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dokaka.com - DOKAKA\'s Website',
     description:
-      'The official website of one of the most renowned Mouth Music artists in the world',
+      'Closed website (newer one is still operational)',
     siteUrl: 'https://shinya-github-center.github.io/dokaka-web-late-r3/',
     image: '/images/modern_collabo.jpg',
     menuLinks: [
