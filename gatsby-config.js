@@ -16,11 +16,12 @@ try {
 }
 
 module.exports = {
+  pathPrefix: `/dokaka-web-late-r3`,
   siteMetadata: {
     title: 'Dokaka.com - DOKAKA\'s Website',
     description:
       'The official website of one of the most renowned Mouth Music artists in the world',
-    siteUrl: 'https://dokaka.com',
+    siteUrl: 'https://shinya-github-center.github.io/dokaka-web-late-r3/',
     image: '/images/modern_collabo.jpg',
     menuLinks: [
       {
