@@ -43,12 +43,12 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://github.com/Shinya-GitHub-Center"
+          href="https://github.com/dokaka-web-late-r3/Shinya-GitHub-Center"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
           <img
-            src="/images/github_blackwhite_logo.png"
+            src="/dokaka-web-late-r3/images/github_blackwhite_logo.png"
             style={{ width: '40px' }}
             alt="GitHub"
           />
@@ -61,7 +61,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="/images/facebook_logo.svg"
+            src="/dokaka-web-late-r3/images/facebook_logo.svg"
             style={{ width: '40px' }}
             alt="Facebook"
           />
@@ -74,7 +74,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="/images/youtube_logo.svg"
+            src="/dokaka-web-late-r3/images/youtube_logo.svg"
             style={{ width: '40px' }}
             alt="YouTube"
           />
@@ -87,7 +87,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="/images/tddiscog_logo.png"
+            src="/dokaka-web-late-r3/images/tddiscog_logo.png"
             style={{ width: '40px', borderRadius: '5px' }}
             alt="The Dokaka Discography"
           />
@@ -100,7 +100,7 @@ const Footer = () => (
           target="_blank"
         >
           <img
-            src="/images/hiface_logo.png"
+            src="/dokaka-web-late-r3/images/hiface_logo.png"
             style={{ width: '40px', borderRadius: '5px' }}
             alt="Human Interface"
           />
