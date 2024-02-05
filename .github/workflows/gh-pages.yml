@@ -40,7 +40,7 @@ jobs:
         env:
           SPACE_ID: ${{secrets.SPACE_ID}}
           ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
-        run: yarn build --prefix-paths && gh-pages -d public
+        run: yarn build --prefix-paths && gh-pages -f -d public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
