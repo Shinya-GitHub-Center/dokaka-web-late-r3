@@ -1,5 +1,5 @@
 # About
-This docker repository is the second patch of [gatsby-fork-docker](https://github.com/Shinya-GitHub-Center/gatsby-fork-docker), to focus onto the development on your local machine
+This repository 'dokaka-web-late-r3' was created using this [template](https://github.com/Shinya-GitHub-Center/gatsby-dev-docker).
 
 ## Easy to Learn!! - How DevOps cycle actually works
 This docker may help you to make your projects automated but with a SLIGHT automation - A hint of automation  
