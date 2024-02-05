@@ -40,6 +40,14 @@
   Link: </dokaka-web-late-r3/component---cache-caches-gatsby-plugin-offline-app-shell-js-1e6e1ea8d6ffb7cf48c4.js>; rel=preload; as=script
   Link: </dokaka-web-late-r3/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </dokaka-web-late-r3/page-data/offline-plugin-app-shell-fallback/page-data.json>; rel=preload; as=fetch; crossorigin
+/dokaka-web-late-r3/this-contentful-blog-has-been-closed/
+  Link: </dokaka-web-late-r3/webpack-runtime-4e0275d656461cc6e6ba.js>; rel=preload; as=script
+  Link: </dokaka-web-late-r3/framework-f946cba9158c39028229.js>; rel=preload; as=script
+  Link: </dokaka-web-late-r3/app-361012d23a6547bbc332.js>; rel=preload; as=script
+  Link: </dokaka-web-late-r3/894d08f847d5ccd5721a76881f119ff4878c1a22-c9f68f413085cfb150b6.js>; rel=preload; as=script
+  Link: </dokaka-web-late-r3/component---src-templates-post-js-1ce8b40c04612fb8498a.js>; rel=preload; as=script
+  Link: </dokaka-web-late-r3/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </dokaka-web-late-r3/page-data/this-contentful-blog-has-been-closed/page-data.json>; rel=preload; as=fetch; crossorigin
 /dokaka-web-late-r3/memo-track-collection-03/
   Link: </dokaka-web-late-r3/webpack-runtime-4e0275d656461cc6e6ba.js>; rel=preload; as=script
   Link: </dokaka-web-late-r3/framework-f946cba9158c39028229.js>; rel=preload; as=script
